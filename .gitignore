@@ -4,8 +4,16 @@ dist/
 .vite/
 coverage/
 .DS_Store
+.env
+.env.*
+*.log
+tmp/
+.tmp/
 patch/*
 !patch/.gitkeep
 data/*.sqlite3
+data/*.sqlite3-shm
+data/*.sqlite3-wal
+data/*.sqlite
 data/*.db
 data/*.json
